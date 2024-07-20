@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>WhiteBow - Главная</title>
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<link rel="icon" type="image/x-icon" href="./img/icon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/icon.svg">
+</head>
+
+<body>
+	<header class="header">
+    <div class="header__main header-main">
+        <div class="header-main__container">
+
+            <div class="header-main__logo">
+                <a href="#">
+                    <span>Белый</span>
+                    Бант
+                </a>
+                <div class="header-main__logo-info">
+                    Ателье по пошиву свадебных и вечерних платьев
+                </div>
+            </div>
+
+
+            <div class="header-main__contacts">
+                <p>г. Клин, ул. Литейная 20</p>
+                <span>ежедневно с 09:00 до 20:00</span>
+            </div>
+            <div class="header-main__contacts">
+                <a class="header-main__contacts-tel" href="tel:89660233709">+7 966 023-37-09</a>
+                <a class="header-main__contacts-email" href="mailto:info@whitebow.ru">info@whitebow.ru</a>
+            </div>
+            <div class="header-main__button">
+                <a href="#" class="button callback-form__trigger" data-fancybox data-src="#callback-form">Заказать звонок</a>
+            </div>
+        </div>
+    </div>
+    <!-- <input class="hamburger-icon__checkbox" type="checkbox" id="hamburger-icon__checkbox" />
+    <label class="header__hamburger hamburger-icon" for="hamburger-icon__checkbox">
+        <span class="hamburger-icon__line hamburger-icon__line_top"></span>
+        <span class="hamburger-icon__line hamburger-icon__line_center"></span>
+        <span class="hamburger-icon__line hamburger-icon__line_bottom"></span>
+    </label> -->
+
+    <div class="header__menu header-menu">
+        <div class="header-menu__container">
+
+            <input class="menu-hamburger__checkbox" type="checkbox" id="menu-hamburger__checkbox" />
+            <label class="menu-hamburger__icon hamburger-icon" for="menu-hamburger__checkbox">
+                <span class="hamburger-icon__line hamburger-icon__line_top"></span>
+                <span class="hamburger-icon__line hamburger-icon__line_center"></span>
+                <span class="hamburger-icon__line hamburger-icon__line_bottom"></span>
+            </label>
+
+            <nav class="header-menu__nav">
+                <ul class="header-menu__items">
+                    <li class="header-menu__item"><a href="#about-section">О нас</a></li>
+                    <li class="header-menu__item"><a href="#services-section">Услуги и цены</a></li>
+                    <li class="header-menu__item"><a href="#portfolio-section">Портфолио</a></li>
+                    <li class="header-menu__item"><a href="#stages-section">Этапы работ</a></li>
+                    <li class="header-menu__item"><a href="#stock-section">Акции</a></li>
+                    <li class="header-menu__item"><a href="#faq-section">FAQ</a></li>
+                    <li class="header-menu__item"><a href="#reviews-section">Отзывы</a></li>
+                    <li class="header-menu__item"><a href="#contacts-section">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+</header>
+
+	<main class="main-page">
+		<section class="main-page__first-screen first-screen">
+			<div class="first-screen__container">
+				<div class="first-screen__info">
+					<h1 class="first-screen__title">Пошив свадебных и вечерних платьев</h1>
+					<p class="first-screen__text">Дарим скидку 15% на все заказы от 10 000 руб!</p>
+					<form class="first-screen__form">
+						<input type="tel" placeholder="Ваш телефон" class="first-screen__input">
+						<button type="submit" class="first-screen__button button">Записаться на пошив</button>
+					</form>
+				</div>
+				<div class="first-screen__img">
+					<picture>
+<source srcset="./img/first-screen-img.webp 1x" type="image/webp">
+<source srcset="./img/first-screen-img.png 1x" type="image/png">
+<img src="./img/first-screen-img.png" alt="">
+</picture>
+				</div>
+			</div>
+		</section>
+
+		<section class="main-page__advantages advantages">
+			<div class="advantages__container">
+				<div class="advantages__item">
+					<svg class="icon icon--profile">
+						<use href="./img/svgsprite/sprite.symbol.svg#profile"></use>
+					</svg>
+					<div class="advantages__title title_h3">
+						Индивидуальный подход
+					</div>
+					<div class="advantages__text">
+						Мы учитываем пожелания, особенности фигуры и личный стиль, чтобы создать платье, идеально подходящее именно вам.
+					</div>
+				</div>
+				<div class="advantages__item">
+					<svg class="icon icon--star">
+						<use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+					</svg>
+					<div class="advantages__title title_h3">
+						Эксклюзивные дизайны
+					</div>
+					<div class="advantages__text">
+						В нашем ателье вы найдете платье, которого нет ни у кого другого, подчеркнув свою уникальность и элегантность.
+					</div>
+				</div>
+				<div class="advantages__item">
+					<svg class="icon icon--heart">
+						<use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+					</svg>
+					<div class="advantages__title title_h3">
+						Премиальные материалы
+					</div>
+					<div class="advantages__text">
+						Шелк, атлас, шифон и другие ткани гарантируют не только безупречный внешний вид, но и комфорт в носке.
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="main-page__about about">
+			<a name="about-section"></a>
+			<div class="about__container">
+				<div class="about__title title_h2-acent-bg">О нашем ателье</div>
+				<div class="about__text">
+					<p>Добро пожаловать в наше ателье, где каждая женщина может воплотить свою мечту о совершенном платье. Мы специализируемся на создании уникальных свадебных и вечерних нарядов, которые подчёркивают вашу индивидуальность и стиль.</p>
+				</div>
+				<div class="about__slider slider">
+					<a class="slider__slide" href="./img/about1.jpg" data-fancybox="about">
+						<picture>
+<source srcset="./img/about1.webp 1x" type="image/webp">
+<source srcset="./img/about1.jpg 1x" type="image/jpeg">
+<img src="./img/about1.jpg" alt="">
+</picture>
+					</a>
+					<a class="slider__slide" href="./img/about2.jpg" data-fancybox="about">
+						<picture>
+<source srcset="./img/about2.webp 1x" type="image/webp">
+<source srcset="./img/about2.jpg 1x" type="image/jpeg">
+<img src="./img/about2.jpg" alt="">
+</picture>
+					</a>
+					<a class="slider__slide" href="./img/about3.jpg" data-fancybox="about">
+						<picture>
+<source srcset="./img/about3.webp 1x" type="image/webp">
+<source srcset="./img/about3.jpg 1x" type="image/jpeg">
+<img src="./img/about3.jpg" alt="">
+</picture>
+					</a>
+					<a class="slider__slide" href="./img/about4.jpg" data-fancybox="about">
+						<picture>
+<source srcset="./img/about4.webp 1x" type="image/webp">
+<source srcset="./img/about4.jpg 1x" type="image/jpeg">
+<img src="./img/about4.jpg" alt="">
+</picture>
+					</a>
+					<a class="slider__slide" href="./img/about1.jpg" data-fancybox="about">
+						<picture>
+<source srcset="./img/about1.webp 1x" type="image/webp">
+<source srcset="./img/about1.jpg 1x" type="image/jpeg">
+<img src="./img/about1.jpg" alt="">
+</picture>
+					</a>
+					<a class="slider__slide" href="./img/about2.jpg" data-fancybox="about">
+						<picture>
+<source srcset="./img/about2.webp 1x" type="image/webp">
+<source srcset="./img/about2.jpg 1x" type="image/jpeg">
+<img src="./img/about2.jpg" alt="">
+</picture>
+					</a>
+				</div>
+				<div class="about__text">
+					<p>Наше главное преимущество &mdash; это любовь к своему делу и стремление сделать ваш день особенным. Мы понимаем, что свадебное или вечернее платье &mdash; это не просто одежда, а важная часть вашего праздника, поэтому вкладываем душу в каждый стежок.</p>
+					<p>Приглашаем вас в наше ателье, где ваши мечты о совершенном платье станут реальностью. Позвольте нам стать частью вашего особенного дня и создать платье, о котором вы всегда мечтали.</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="main-page__services services">
+			<a name="services-section"></a>
+			<div class="services__container">
+				<div class="services__title title_h2-acent-bg">Услуги и цены</div>
+				<div class="services__column">
+					<ul class="services__list">
+						<li><a class="services__button button button_line" href="#services__tab1">Пошив свадебного платья</a></li>
+						<li><a class="services__button button button_line" href="#services__tab2">Пошив вечернего платья</a></li>
+						<li><a class="services__button button button_line" href="#services__tab3">Сопутствующие аксессуары</a></li>
+						<li><a class="services__button button button_line" href="#services__tab4">Декорирование платьев</a></li>
+						<li><a class="services__button button button_line" href="#services__tab5">Перешив и ремонт платьев</a></li>
+						<li><a class="services__button button button_line" href="#services__tab6">Аренда платьев</a></li>
+					</ul>
+					<div class="services__items">
+						<div class="services__item services-item" id="services__tab1">
+							<div class="services-item__img">
+								<picture>
+<source srcset="./img/services1.webp 1x" type="image/webp">
+<source srcset="./img/services1.jpg 1x" type="image/jpeg">
+<img src="./img/services1.jpg" alt="">
+</picture>
+							</div>
+							<div class="services-item__info">
+								<div class="services-item__title title_h3">Пошив свадебного платья</div>
+								<div class="services-item__text">
+									<ul>
+										<li>Разработка уникального дизайна с учетом пожеланий клиента.</li>
+										<li>Подбор тканей и декоративных элементов.</li>
+										<li>Создание эскизов и макетов будущего платья.</li>
+										<li>Проведение примерок и корректировок.</li>
+									</ul>
+								</div>
+								<div class="services-item__price">от 15 000 ₽</div>
+								<div class="services-item__button button callback-form__trigger" data-fancybox data-src="#callback-form">Заказать</div>
+							</div>
+						</div>
+						<div class="services__item services-item" id="services__tab2">
+							<div class="services-item__img">
+								<picture>
+<source srcset="./img/services2.webp 1x" type="image/webp">
+<source srcset="./img/services2.jpg 1x" type="image/jpeg">
+<img src="./img/services2.jpg" alt="">
+</picture>
+							</div>
+							<div class="services-item__info">
+								<div class="services-item__title title_h3">Пошив вечернего платья</div>
+								<div class="services-item__text">
+									<ul>
+										<li>Пошив платьев для подружек невесты, свидетельниц, мамы невесты и жениха.</li>
+										<li>Изготовление нарядов для выпускных, юбилеев и других торжественных мероприятий.</li>
+									</ul>
+								</div>
+								<div class="services-item__price">от 15 000 ₽</div>
+								<div class="services-item__button button callback-form__trigger" data-fancybox data-src="#callback-form">Заказать</div>
+							</div>
+						</div>
+						<div class="services__item services-item" id="services__tab3">
+							<div class="services-item__img">
+								<picture>
+<source srcset="./img/services3.webp 1x" type="image/webp">
+<source srcset="./img/services3.jpg 1x" type="image/jpeg">
+<img src="./img/services3.jpg" alt="">
+</picture>
+							</div>
+							<div class="services-item__info">
+								<div class="services-item__title title_h3">Пошив сопутствующих аксессуаров</div>
+								<div class="services-item__text">
+									<ul>
+										<li>Создание фаты, перчаток, накидок, болеро и шлейфов.</li>
+										<li>Изготовление сумочек и поясов в тон платью.</li>
+									</ul>
+								</div>
+								<div class="services-item__price">от 5 000 ₽</div>
+								<div class="services-item__button button callback-form__trigger" data-fancybox data-src="#callback-form">Заказать</div>
+							</div>
+						</div>
+						<div class="services__item services-item" id="services__tab4">
+							<div class="services-item__img">
+								<picture>
+<source srcset="./img/services4.webp 1x" type="image/webp">
+<source srcset="./img/services4.jpg 1x" type="image/jpeg">
+<img src="./img/services4.jpg" alt="">
+</picture>
+							</div>
+							<div class="services-item__info">
+								<div class="services-item__title title_h3">Декорирование платьев</div>
+								<div class="services-item__text">
+									<ul>
+										<li>Украшение кружевом, бисером, стразами и вышивкой.</li>
+										<li>Добавление оригинальных деталей: поясов, лент, бантов и др.</li>
+									</ul>
+								</div>
+								<div class="services-item__price">от 3 000 ₽</div>
+								<div class="services-item__button button callback-form__trigger" data-fancybox data-src="#callback-form">Заказать</div>
+							</div>
+						</div>
+						<div class="services__item services-item" id="services__tab5">
+							<div class="services-item__img">
+								<picture>
+<source srcset="./img/services5.webp 1x" type="image/webp">
+<source srcset="./img/services5.jpg 1x" type="image/jpeg">
+<img src="./img/services5.jpg" alt="">
+</picture>
+							</div>
+							<div class="services-item__info">
+								<div class="services-item__title title_h3">Переделка и ремонт платьев</div>
+								<div class="services-item__text">
+									<ul>
+										<li>Ушивание, расширение и подгонка по фигуре.</li>
+										<li>Замена застежек, молний и других элементов.</li>
+										<li>Восстановление поврежденных участков ткани и декора.</li>
+									</ul>
+								</div>
+								<div class="services-item__price">от 5 000 ₽</div>
+								<div class="services-item__button button callback-form__trigger" data-fancybox data-src="#callback-form">Заказать</div>
+							</div>
+						</div>
+						<div class="services__item services-item" id="services__tab6">
+							<div class="services-item__img">
+								<picture>
+<source srcset="./img/services6.webp 1x" type="image/webp">
+<source srcset="./img/services6.jpg 1x" type="image/jpeg">
+<img src="./img/services6.jpg" alt="">
+</picture>
+							</div>
+							<div class="services-item__info">
+								<div class="services-item__title title_h3">Аренда свадебных и вечерних платьев</div>
+								<div class="services-item__text">
+									<ul>
+										<li>Предоставление платьев из каталога для временного использования.</li>
+										<li>Подгонка арендованных платьев по фигуре.</li>
+									</ul>
+								</div>
+								<div class="services-item__price">от 15 000 ₽</div>
+								<div class="services-item__button button callback-form__trigger" data-fancybox data-src="#callback-form">Заказать</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<section class="main-page__portfolio portfolio">
+			<a name="portfolio-section"></a>
+			<div class="portfolio__container">
+				<div class="portfolio__title title_h2-acent-bg">Наши работы</div>
+				<div class="portfolio__text">
+					<p>Каждое платье, созданное в нашем ателье, — это результат тесного сотрудничества с клиентом. Мы начинаем с детального обсуждения ваших пожеланий и идей, чтобы создать эскиз платья, который идеально отражает ваше видение.</p>
+				</div>
+				<a class="portfolio__button button" href="#">Смотреть все</a>
+				<div class="portfolio__slider slider">
+					<a class="slider__slide" href="./img/dress1-2.jpg" data-fancybox="portfolio">
+						<picture>
+<source srcset="./img/dress1-2.webp 1x" type="image/webp">
+<source srcset="./img/dress1-2.jpg 1x" type="image/jpeg">
+<img src="./img/dress1-2.jpg" alt="">
+</picture>
+					</a>
+					<a class="slider__slide" href="./img/video/dress1.mp4" data-fancybox="portfolio">
+						<picture>
+<source srcset="./img/dress1.webp 1x" type="image/webp">
+<source srcset="./img/dress1.jpg 1x" type="image/jpeg">
+<img src="./img/dress1.jpg" alt="">
+</picture>
+					</a>
+					<a class="slider__slide" href="./img/dress2.jpg" data-fancybox="portfolio">
+						<picture>
+<source srcset="./img/dress2.webp 1x" type="image/webp">
+<source srcset="./img/dress2.jpg 1x" type="image/jpeg">
+<img src="./img/dress2.jpg" alt="">
+</picture>
+					</a>
+					<a class="slider__slide" href="./img/video/dress2.mp4" data-fancybox="portfolio">
+						<picture>
+<source srcset="./img/dress2-2.webp 1x" type="image/webp">
+<source srcset="./img/dress2-2.jpg 1x" type="image/jpeg">
+<img src="./img/dress2-2.jpg" alt="">
+</picture>
+					</a>
+					<a class="slider__slide" href="./img/dress3.jpg" data-fancybox="portfolio">
+						<picture>
+<source srcset="./img/dress3.webp 1x" type="image/webp">
+<source srcset="./img/dress3.jpg 1x" type="image/jpeg">
+<img src="./img/dress3.jpg" alt="">
+</picture>
+					</a>
+					<a class="slider__slide" href="./img/video/dress3.mp4" data-fancybox="portfolio">
+						<picture>
+<source srcset="./img/dress3-2.webp 1x" type="image/webp">
+<source srcset="./img/dress3-2.jpg 1x" type="image/jpeg">
+<img src="./img/dress3-2.jpg" alt="">
+</picture>
+					</a>
+
+
+
+				</div>
+			</div>
+		</section>
+
+
+		<section class="main-page__stages stages">
+			<a name="stages-section"></a>
+			<div class="stages__container">
+				<div class="stages__title title_h2-acent">Как мы работаем</div>
+				<div class="stages__items">
+
+					<div class="stages__item stages-item">
+						<div class="stages-item__num">1</div>
+						<div class="stages-item__title title_h3">Консультация</div>
+						<div class="stages-item__text">
+							Встреча с клиентом для обсуждения деталей и пожеланий. Наши специалисты помогут найти вдохновение, предложат модные идеи и ответят на все вопросы.
+						</div>
+					</div>
+					<div class="stages__item stages-item">
+						<div class="stages-item__num stages-item__num_left">2</div>
+						<div class="stages-item__title title_h3">Снятие мерок</div>
+						<div class="stages-item__text">
+							Мерки снимаются с учетом особенностей фигуры клиента, чтобы обеспечить максимальный комфорт и идеальную посадку.
+						</div>
+					</div>
+					<div class="stages__item stages-item">
+						<div class="stages-item__num">3</div>
+						<div class="stages-item__title title_h3">Эскиз и подбор материалов</div>
+						<div class="stages-item__text">
+							Дизайнеры разрабатывают несколько вариантов эскиза, чтобы выбрать наиболее понравившийся. На этом этапе также проводится подбор тканей и декоративных элементов.
+						</div>
+					</div>
+					<div class="stages__item stages-item">
+						<div class="stages-item__num stages-item__num_left">4</div>
+						<div class="stages-item__title title_h3">Создание макета</div>
+						<div class="stages-item__text">
+							Макет позволяет увидеть будущую форму и посадку платья, а также внести необходимые корректировки до начала работы с основной тканью.
+						</div>
+					</div>
+					<div class="stages__item stages-item">
+						<div class="stages-item__num">5</div>
+						<div class="stages-item__title title_h3">Примерка макета</div>
+						<div class="stages-item__text">
+							Клиент примеряет макет платья, и мы вносим все необходимые изменения и корректировки. Вносятся изменения в лекало и делаются отметки на макете.
+						</div>
+					</div>
+					<div class="stages__item stages-item">
+						<div class="stages-item__num stages-item__num_left">6</div>
+						<div class="stages-item__title title_h3">Раскрой и пошив</div>
+						<div class="stages-item__text">
+							Приступаем к раскрою основной ткани и пошиву платья. Пошив включает в себя создание всех деталей платья, включая подкладку, застежки и декоративные элементы.
+						</div>
+					</div>
+					<div class="stages__item stages-item">
+						<div class="stages-item__num">7</div>
+						<div class="stages-item__title title_h3">Примерка и корректировка</div>
+						<div class="stages-item__text">
+							На каждой примерке мы вносим необходимые корректировки, чтобы достичь идеального результата. Количество примерок зависит от сложности модели и пожеланий клиента.
+						</div>
+					</div>
+					<div class="stages__item stages-item">
+						<div class="stages-item__num stages-item__num_left">8</div>
+						<div class="stages-item__title title_h3">Завершение и декорирование</div>
+						<div class="stages-item__text">
+							После примерки и внесения всех изменений мы завершаем работу над платьем. Это включает в себя отделку краев, установку застежек и окончательное декорирование.
+						</div>
+					</div>
+					<div class="stages__item stages-item stages-item_last">
+						<div class="stages-item__num stages-item__num_center">9</div>
+						<div class="stages-item__title title_h3">Финальная примерка</div>
+						<div class="stages-item__text">
+							На финальной примерке клиент видит готовое платье. Мы убеждаемся, что все детали соответствуют ожиданиям и платье идеально сидит. После утверждения клиентом, платье тщательно упаковывается и передается заказчику.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="main-page__stock stock">
+			<a name="stock-section"></a>
+			<div class="stock__container">
+				<div class="stock__title">Только в августе</div>
+				<div class="stock__info button callback-form__trigger" data-fancybox data-src="#callback-form">ДАРИМ СКИДКУ 15% НА ВСЕ ЗАКАЗЫ ОТ 5 000 РУБ!</div>
+			</div>
+		</section>
+
+
+		<section class="main-page__faq faq">
+			<a name="faq-section"></a>
+			<div class="faq__container">
+				<div class="faq__title title_h2-acent-bg">Вопросы и ответы</div>
+				<p class="faq__text">Если у вас есть другие вопросы или вам нужна дополнительная информация, пожалуйста, не стесняйтесь обращаться к нам! Мы всегда готовы помочь и сделать процесс создания вашего платья максимально приятным и комфортным.</p>
+				<div class="faq__column">
+					<div class="faq__img faq-img">
+						<picture>
+<source srcset="./img/faq.webp 1x" type="image/webp">
+<source srcset="./img/faq.jpg 1x" type="image/jpeg">
+<img src="./img/faq.jpg" alt="">
+</picture>
+						<div class="faq-img__info">
+							<div class="faq-img__title title_h3">Остались вопросы?</div>
+							<div class="faq-img__text">
+								<p>Заполните <span class="callback-form__trigger" data-fancybox data-src="#callback-form">форму</span> и мы вам перезвоним</p>
+								<p>Также вы можете позвонить по телефону <a href="tel:89660233709">+7 966 023-37-09</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="faq__items">
+						<div class="faq__item">
+							<div class="faq__question">Сколько времени занимает пошив платья на заказ?</div>
+							<div class="faq__answer">
+								<p>Время, необходимое для пошива платья, зависит от сложности дизайна и выбранных материалов. Обычно процесс занимает от 4 до 8 недель. Мы рекомендуем обращаться в наше ателье как можно раньше, чтобы у нас было достаточно времени для создания идеального платья.</p>
+							</div>
+						</div>
+						<div class="faq__item">
+							<div class="faq__question">Можно ли внести изменения в дизайн платья после начала работы?</div>
+							<div class="faq__answer">
+								<p>Да, мы понимаем, что у вас могут возникнуть новые идеи или пожелания после начала работы. Мы стараемся быть максимально гибкими и готовы внести изменения в дизайн на любом этапе, но важно помнить, что значительные изменения могут потребовать дополнительного времени и затрат.</p>
+							</div>
+						</div>
+						<div class="faq__item">
+							<div class="faq__question">Какие материалы вы используете для пошива платьев?</div>
+							<div class="faq__answer">
+								<p>Мы используем только высококачественные материалы, такие как шелк, атлас, шифон, кружево и другие премиальные ткани. Наши мастера тщательно подбирают материалы для каждого платья, чтобы обеспечить его элегантный вид и комфорт в носке.</p>
+							</div>
+						</div>
+						<div class="faq__item">
+							<div class="faq__question">Что нужно принести на первую консультацию?</div>
+							<div class="faq__answer">
+								<p>На первую консультацию желательно принести любые референсы, которые помогут нам понять ваши предпочтения. Это могут быть фотографии, эскизы или описания. Если у вас есть идеи по поводу тканей или декоративных элементов, также будет полезно обсудить их на этой встрече.</p>
+							</div>
+						</div>
+						<div class="faq__item">
+							<div class="faq__question">Какие способы оплаты вы принимаете и требуется ли предоплата?</div>
+							<div class="faq__answer">
+								<p>Мы принимаем различные способы оплаты, включая наличные, банковские карты и банковские переводы. Предоплата обычно составляет 50% от стоимости платья. Остаток суммы оплачивается после завершения работы и финальной примерки.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<section class="main-page__reviews reviews">
+			<a name="reviews-section"></a>
+			<div class="reviews__container">
+				<div class="reviews__title title_h2-acent-bg">Отзывы</div>
+				<div class="reviews__items slider-one">
+					<div class="slider-one__slide">
+						<div class="reviews__item review">
+							<a class="review__main-img" href="./img/review4-1.jpg" data-fancybox="review4">
+								<picture>
+<source srcset="./img/review4-1.webp 1x" type="image/webp">
+<source srcset="./img/review4-1.jpg 1x" type="image/jpeg">
+<img src="./img/review4-1.jpg" alt="">
+</picture>
+							</a>
+							<div class="review__content">
+								<div class="review__category">Пошив вечерних платьев <span class="review__date">14.05.2022</span></div>
+								<div class="review__name">Виктория С. <span class="review__rating">★★★★★</span></div>
+								<div class="review__text">
+									<p>Решили на выпускной платье шить, чтобы в такой день на дочке было надето то, что ребенок хочет, и чтобы было подогнано по фигуре. Спасибо сарафанному радио - подсказали чудесное ателье в Клину, где быстро и качественно шьют вечерние нарядные платья. Вместо трёх визитов нам понадобилось два (мерки сняли профессионально), материал мастер закупила сама, поняв, как должны струиться складки и как материал поведет себя во время вальса и пр. тонкости. Результатом очень довольны: и быстро (!), и не так дорого, как если бы покупали “от кутюр”, и качество отменное (посадка по фигуре, корсет как влитой, швы - всё на “пятёрку”).</p>
+									<p>Очень благодарны мастерицам (..Светлане... и Кристине), отдельное спасибо за теплое отношение и искреннюю заинтересованность!</p>
+								</div>
+								<div class="review__other-imgs">
+									<a class="review__other-img" href="./img/review4-2.jpg" data-fancybox="review4"><picture>
+<source srcset="./img/review4-2.webp 1x" type="image/webp">
+<source srcset="./img/review4-2.jpg 1x" type="image/jpeg">
+<img src="./img/review4-2.jpg" alt="">
+</picture></a>
+									<a class="review__other-img" href="./img/review4-3.jpg" data-fancybox="review4"><picture>
+<source srcset="./img/review4-3.webp 1x" type="image/webp">
+<source srcset="./img/review4-3.jpg 1x" type="image/jpeg">
+<img src="./img/review4-3.jpg" alt="">
+</picture></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-one__slide">
+						<div class="reviews__item review">
+							<a class="review__main-img" href="./img/review1-1.jpg" data-fancybox="review1">
+								<picture>
+<source srcset="./img/review1-1.webp 1x" type="image/webp">
+<source srcset="./img/review1-1.jpg 1x" type="image/jpeg">
+<img src="./img/review1-1.jpg" alt="">
+</picture>
+							</a>
+							<div class="review__content">
+								<div class="review__category">Пошив вечерних платьев <span class="review__date">14.07.2024</span></div>
+								<div class="review__name">Елена М. <span class="review__rating">★★★★★</span></div>
+								<div class="review__text">Мне нужно было вечернее платье для важного мероприятия, и я не ошиблась, выбрав это ателье. Дизайн был уникальным и идеально подходил мне по стилю и фигуре. Платье было очень комфортным и вызвало множество комплиментов. Обязательно приду к вам снова!</div>
+								<div class="review__other-imgs">
+									<a class="review__other-img" href="./img/review1-2.jpg" data-fancybox="review1"><picture>
+<source srcset="./img/review1-2.webp 1x" type="image/webp">
+<source srcset="./img/review1-2.jpg 1x" type="image/jpeg">
+<img src="./img/review1-2.jpg" alt="">
+</picture></a>
+									<a class="review__other-img" href="./img/review1-3.jpg" data-fancybox="review1"><picture>
+<source srcset="./img/review1-3.webp 1x" type="image/webp">
+<source srcset="./img/review1-3.jpg 1x" type="image/jpeg">
+<img src="./img/review1-3.jpg" alt="">
+</picture></a>
+									<a class="review__other-img" href="./img/review1-4.jpg" data-fancybox="review1"><picture>
+<source srcset="./img/review1-4.webp 1x" type="image/webp">
+<source srcset="./img/review1-4.jpg 1x" type="image/jpeg">
+<img src="./img/review1-4.jpg" alt="">
+</picture></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-one__slide">
+						<div class="reviews__item review">
+							<a class="review__main-img" href="./img/review2-1.jpg" data-fancybox="review2">
+								<picture>
+<source srcset="./img/review2-1.webp 1x" type="image/webp">
+<source srcset="./img/review2-1.jpg 1x" type="image/jpeg">
+<img src="./img/review2-1.jpg" alt="">
+</picture>
+							</a>
+							<div class="review__content">
+								<div class="review__category">Пошив свадебного платья<span class="review__date">10.06.2024</span></div>
+								<div class="review__name">Анна К.<span class="review__rating">★★★★★</span></div>
+								<div class="review__text">Мое свадебное платье было настоящим шедевром! Ателье превратило мои мечты в реальность. От первой консультации до финальной примерки все прошло гладко и профессионально. Спасибо вам за это великолепное платье, которое сделало мой день незабываемым!</div>
+								<div class="review__other-imgs">
+									<a class="review__other-img" href="./img/review2-2.jpg" data-fancybox="review2"><picture>
+<source srcset="./img/review2-2.webp 1x" type="image/webp">
+<source srcset="./img/review2-2.jpg 1x" type="image/jpeg">
+<img src="./img/review2-2.jpg" alt="">
+</picture></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-one__slide">
+						<div class="reviews__item review">
+							<a class="review__main-img" href="./img/review3-1.jpg" data-fancybox="review3">
+								<picture>
+<source srcset="./img/review3-1.webp 1x" type="image/webp">
+<source srcset="./img/review3-1.jpg 1x" type="image/jpeg">
+<img src="./img/review3-1.jpg" alt="">
+</picture>
+							</a>
+							<div class="review__content">
+								<div class="review__category">Пошив сопутствующих аксессуаров<span class="review__date">17.06.2024</span></div>
+								<div class="review__name">Мария П.<span class="review__rating">★★★★★</span></div>
+								<div class="review__text">Я заказала в ателье фату и перчатки для своей свадьбы. Все было выполнено безупречно и в точном соответствии с моими пожеланиями. Фата и перчатки идеально дополнили мой образ и сделали его завершенным. Очень благодарна за такое внимание к деталям!</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<section class="main-page__contacts contacts">
+			<a name="contacts-section"></a>
+			<div class="contacts__container">
+				<div class="reviews__title title_h2-acent-bg">Контакты</div>
+				<div class="contacts__column">
+					<div class="contacts__info">
+						<div class="contacts__text">Мы всегда рады общению и готовы ответить на все ваши вопросы. Свяжитесь с нами любым удобным для вас способом!</div>
+						<div class="contacts__item">
+							<svg class="icon icon--tel">
+								<use href="./img/svgsprite/sprite.symbol.svg#tel"></use>
+							</svg>
+							<div class="contacts__item-info">
+								<div class="contacts__label">Телефон:</div>
+								<div class="contacts__content"><a href="tel:89660233709">+7 966 023-37-09</a></div>
+							</div>
+						</div>
+						<div class="contacts__item">
+							<svg class="icon icon--mail">
+								<use href="./img/svgsprite/sprite.symbol.svg#mail"></use>
+							</svg>
+							<div class="contacts__item-info">
+								<div class="contacts__label">Почта:</div>
+								<div class="contacts__content"><a href="mailto:info@whitebow.ru">info@whitebow.ru</a></div>
+							</div>
+						</div>
+						<div class="contacts__item">
+							<svg class="icon icon--location">
+								<use href="./img/svgsprite/sprite.symbol.svg#location"></use>
+							</svg>
+							<div class="contacts__item-info">
+								<div class="contacts__label">Адрес:</div>
+								<div class="contacts__content">г. Клин, улица Литейная, 20</div>
+							</div>
+						</div>
+						<div class="contacts__item">
+							<svg class="icon icon--time">
+								<use href="./img/svgsprite/sprite.symbol.svg#time"></use>
+							</svg>
+							<div class="contacts__item-info">
+								<div class="contacts__label">Время работы:</div>
+								<div class="contacts__content">Каждый день с 09:00 до 20:00</div>
+							</div>
+						</div>
+						<div class="contacts__social-links">
+							<a href="#"><img src="./img/VK.svg" alt=""></a>
+							<a href="#"><img src="./img/Telegram.svg" alt=""></a>
+							<a href="#"><img src="./img/WhatsApp.svg" alt=""></a>
+							<a href="#"><img src="./img/Viber.svg" alt=""></a>
+						</div>
+					</div>
+					<form class="contacts__form contact-form" action="" method="post" name="contact-form">
+						<div class="contact-form__row">
+							<div class="contact-form__input">
+								<label for="tel">Телефон</label>
+								<input type="tel" name="tel" placeholder="+7 (900) 000-00-00" />
+							</div>
+							<div class="contact-form__input">
+								<label for="email">Email</label>
+								<input type="email" name="email" placeholder="Ваша почта" />
+							</div>
+						</div>
+						<div class="contact-form__row">
+							<div class="contact-form__input">
+								<label for="name">Имя</label>
+								<input type="text" name="name" placeholder="Ваше имя" />
+							</div>
+						</div>
+						<div class="contact-form__row">
+							<div class="contact-form__input">
+								<label for="name">Ваш вопрос</label>
+								<textarea name="textarea" rows="1" placeholder="Что вас интересует?"></textarea>
+							</div>
+						</div>
+						<div class="contact-form__row contact-form__row-last">
+							<button type="submit" class="contact-form__button button">Отправить</button>
+							<p class="contact-form__text">Нажимая кнопку, я принимаю <a href="#">соглашение о конфиденциальности</a> и соглашаюсь с обработкой персональных данных</p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+    <div class="footer__main footer-main">
+        <div class="footer-main__container">
+            <div class="footer-main__column footer-main__column-logo">
+                <div class="footer-main__logo">
+                    <a href="#">
+                        <span>Белый</span>
+                        Бант
+                    </a>
+                    <div class="footer-main__logo-info">
+                        Ателье по пошиву свадебных и вечерних платьев
+                    </div>
+                </div>
+                <div class="footer-main__badge">
+                    <iframe src="https://yandex.ru/sprav/widget/rating-badge/26450227552?type=rating" width="150" height="50" frameborder="0"></iframe>
+                    <p class="footer-main__badge-text">Оставьте отзыв о нас на <a href="https://yandex.ru/maps/org/atelye_bely_bant/26450227552/reviews/?ll=36.725186%2C56.332037&utm_campaign=v1&utm_medium=rating&utm_source=badge&z=16" target="_blank" rel="nofollow">Яндекс.Картах</a></p>
+                </div>
+            </div>
+            <div class="footer-main__column">
+                <div class="footer-main__title">Услуги</div>
+                <ul class="footer-main__menu-links">
+                    <li><a href="#">Свадебные платья</a></li>
+                    <li><a href="#">Вечерние платья</a></li>
+                    <li><a href="#">Аксессуары</a></li>
+                    <li><a href="#">Декорирование платьев</a></li>
+                    <li><a href="#">Перешив и ремонт платьев</a></li>
+                    <li><a href="#">Аренда платьев</a></li>
+                </ul>
+            </div>
+            <div class="footer-main__column">
+                <div class="footer-main__title">Информация</div>
+
+                <ul class="footer-main__menu-links">
+                    <li><a href="#about-section">О нас</a></li>
+                    <li><a href="#services-section">Услуги и цены</a></li>
+                    <li><a href="#portfolio-section">Портфолио</a></li>
+                    <li><a href="#stages-section">Этапы работ</a></li>
+                    <li><a href="#stock-section">Акции</a></li>
+                    <li><a href="#faq-section">FAQ</a></li>
+                    <li><a href="#reviews-section">Отзывы</a></li>
+                    <li><a href="#contacts-section">Контакты</a></li>
+                    <li><a href="#">Политика конфидициальности</a></li>
+                </ul>
+            </div>
+            <div class="footer-main__column footer-main__contacts">
+                <div class="footer-main__title">Контакты</div>
+                <div class="footer-main__contact">
+                    <a href="tel:89660233709">+7 966 023-37-09</a><br>
+                    <span class="callback-form__trigger" data-fancybox data-src="#callback-form">Заказать звонок</span>
+                </div>
+                <div class="footer-main__contact">
+                    Клин, ул. Литейная, 20
+                    <span>ежедневно с 09:00 до 20:00</span>
+                </div>
+                <div class="footer-main__contact">
+                    <a href="mailto:info@whitebow.ru">info@whitebow.ru</a>
+                </div>
+                <div class="footer-main__social-links">
+                    <a href="#"><img src="./img/VK.svg" alt=""></a>
+                    <a href="#"><img src="./img/Telegram.svg" alt=""></a>
+                    <a href="#"><img src="./img/WhatsApp.svg" alt=""></a>
+                    <a href="#"><img src="./img/Viber.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__copyright footer-copyright">
+        <div class="footer-copyright__container">
+            <p>WhiteBow © 2015 - 2024</p>
+            <p>Все материалы, размещенные на сайте, носят справочный характер и не являются публичной офертой</p>
+            <p>Сайт разработан <a href="https://t.me/kareeloliv" target="_blank" rel="nofollow">kareeloliv</a></p>
+        </div>
+    </div>
+</footer>
+	<form class="callback-form" method="post" id="callback-form">
+    <div class="callback-form__head">
+        <div class="callback-form__head-title title_h3">Заказать звонок</div>
+        <span>Заполните форму и мы свяжемся с Вами в течение 15 минут</span>
+    </div>
+    <div class="callback-form__items">
+        <div class="callback-form__item">
+            <label for="name">Имя</label>
+            <input type="name" name="name" placeholder="Ваше имя" />
+        </div>
+        <div class="callback-form__item">
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" placeholder="+7 (900) 000-00-00" />
+        </div>
+        <div class="callback-form__item">
+            <label for="textarea">Комментарий</label>
+            <textarea name="textarea" rows="1" placeholder=""></textarea>
+        </div>
+        <div class="callback-form__policy">Нажимая кнопку, я принимаю <a href="#">соглашение о конфиденциальности</a></div>
+        <button type="submit" class="callback-form__button button">Отправить</button>
+    </div>
+</form>
+
+	<script src="./js/index.min.js"></script>
+</body>
+
+</html>
